@@ -1,3 +1,5 @@
+#Use turtle to draw five pentagrams on the screen.
+
 import turtle
 
 
