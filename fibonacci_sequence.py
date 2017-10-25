@@ -18,11 +18,11 @@ print(fib_sequence(4))
 #number 1
 
 def fib(n):
-    a=0
-    b=1
+    a = 0
+    b = 1
     for i in range(0,n-1):
-        b=a+b
-        a=b-a
+        b = a+b
+        a = b-a
     return b
 
 n = int(input("a number"))
