@@ -1,7 +1,7 @@
 factors = {}
 
 for num in range (1,6+1): #each num as the key for each row
-    start = 0 #for each column in the matrix, starts as 1
+    start = 0 #for each column in the matrix, starts as 0
     for factor in range (1,num+1):#go through each number upto the key to test if a factor
         
         if num % factor == 0:
